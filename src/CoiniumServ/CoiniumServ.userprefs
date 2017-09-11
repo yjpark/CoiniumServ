@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{5FCA1E48-0751-4625-9532-CB804DF55DB5}|Default">
+  <MonoDevelop.Ide.ItemProperties.CoiniumServ PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Logging/LogManager.cs">
+    <Files>
+      <File FileName="Accounts/AccountManager.cs" Line="31" Column="28" />
+      <File FileName="packages/BouncyCastle.1.8.1/Readme.txt" Line="1" Column="1" />
+      <File FileName="packages/MySql.Data.6.9.9/Readme.txt" Line="1" Column="1" />
+      <File FileName="packages/RestSharp.105.2.3/readme.txt" Line="1" Column="1" />
+      <File FileName="Algorithms/Implementations/ScryptN.cs" Line="36" Column="7" />
+      <File FileName="Algorithms/Implementations/Blake.cs" Line="31" Column="7" />
+      <File FileName="Logging/LogManager.cs" Line="123" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoiniumServ" expanded="True">
+            <Node name="CoiniumServ" expanded="True" selected="True">
+              <Node name="Logging" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
