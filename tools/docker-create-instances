@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 docker run --name coinium.mysql -e MYSQL_ROOT_PASSWORD=aey4xi8nae9soquue7ech2EGh3eiph2i -d mysql:8.0
-docker run --name coinium --port 8001:8001 --link coinium.mysql:mysql -it ubuntu
+docker run --name coinium.redis -d redis:4.0
+docker run --name coinium --port 8001:8001 --link coinium.mysql:mysql --link coinium.redis:redis -it ubuntu

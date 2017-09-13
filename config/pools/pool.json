@@ -2,12 +2,12 @@
     "enabled": true,
     "coin": "litecoin.json",
     "daemon": {
-        "port": 9333,
+        "port": 19335,
         "username": "test",
         "password": "test"
     },
     "wallet": {
-        "address": "n3Mvrshbf4fMoHzWZkDVbhhx4BLZCcU9oY"
+        "address": "n3jbMx3oqehLuDP4CkZCBeHZEMbBfXaCLX"
     },
     "rewards": [
         {

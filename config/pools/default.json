@@ -44,16 +44,16 @@
         "hybrid": {
             "enabled": true,
             "redis": {
-                "host": "127.0.0.1",
+                "host": "172.17.0.4",
                 "port": 6379,
                 "password": "",
                 "databaseId": 0
             },
             "mysql": {
-                "host": "127.0.0.1",
+                "host": "172.17.0.2",
                 "port": 3306,
-                "user": "username",
-                "password": "password"
+                "user": "root",
+                "password": "aey4xi8nae9soquue7ech2EGh3eiph2i"
             }
         },
         "mpos": {
