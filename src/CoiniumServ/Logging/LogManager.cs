@@ -107,8 +107,10 @@ namespace CoiniumServ.Logging
                 }
             }
 
+            /* YJ Park Changes Begin
             if (config.Targets.Count(x => x.Type == LogTargetType.File) > 0) // if we have added new file loggers.
                 Log.Logger = _mainConfig.CreateLogger(); // recreate the global logger.
+              YJ Park Changes End */
 
             PacketLogger = _packetLoggerConfig.CreateLogger(); // create the packet logger too even if doesn't really contain any outputs.
         }

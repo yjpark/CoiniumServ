@@ -3493,6 +3493,7 @@
   <Target Name="AfterBuild">
     <Copy SourceFiles="$(SolutionDir)/packages/Nancy.Viewengines.Razor.1.4.3/BuildProviders/Nancy.ViewEngines.Razor.BuildProviders.dll" DestinationFolder="$(OutDir)" />
     <Copy SourceFiles="$(SolutionDir)/packages/Nancy.Viewengines.Razor.1.4.3/lib/net40/Nancy.ViewEngines.Razor.dll" DestinationFolder="$(OutDir)" />
+    <Copy SourceFiles="$(SolutionDir)/packages/RestSharp.105.2.3/lib/net45/RestSharp.dll" DestinationFolder="$(OutDir)" />
   </Target>
   <Import Project="packages\Nancy.Viewengines.Razor.1.4.3\build\Nancy.ViewEngines.Razor.targets" Condition="Exists('packages\Nancy.Viewengines.Razor.1.4.3\build\Nancy.ViewEngines.Razor.targets')" />
 </Project>
