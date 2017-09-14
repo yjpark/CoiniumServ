@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+tools/minerd -o stratum+tcp://127.0.0.1:3333 -u mvY8vqaT9dPVTe21DeitFTkAhTb7bV1imE -p test -t 1

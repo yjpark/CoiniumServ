@@ -1,3 +1,6 @@
 [submodule "lib/csredis"]
 	path = lib/csredis
 	url = git@github.com:vagabondan/csredis.git
+[submodule "tools/cpuminer"]
+	path = tools/cpuminer
+	url = git@github.com:yjpark/cpuminer.git
