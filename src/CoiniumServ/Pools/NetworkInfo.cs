@@ -100,6 +100,9 @@ namespace CoiniumServ.Pools
 
                 // check if our network connection is healthy.
                 Healthy = Connections >= 0 && string.IsNullOrEmpty(Errors);
+                if (!Healthy) {
+                    _logger.Error("Unhealthy: Connections = {0}, Errors = {1}", Connections, Errors);
+                }
             }
             catch (RpcException e)
             {

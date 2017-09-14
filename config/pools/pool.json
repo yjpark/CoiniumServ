@@ -2,7 +2,7 @@
     "enabled": true,
     "coin": "litecoin.json",
     "daemon": {
-        "port": 19335,
+        "port": 19332,
         "username": "test",
         "password": "test"
     },
@@ -11,7 +11,7 @@
     },
     "rewards": [
         {
-            "myxWybbhUkGzGF7yaf2QVNx3hh3HWTya5t": 1
+            "n3jbMx3oqehLuDP4CkZCBeHZEMbBfXaCLX": 1
         }
     ],
     "stratum": {

@@ -266,6 +266,7 @@ namespace CoiniumServ.Shares
             catch (RpcException e)
             {
                 _logger.Error("Error getting account for pool central wallet address: {0:l} - {1:l}", _poolConfig.Wallet.Adress, e.Message);
+                _logger.Error("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA {0}", e.InnerException);
             }
         }
     }

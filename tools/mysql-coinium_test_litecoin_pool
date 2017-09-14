@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker exec -it coinium.mysql mysql --password=aey4xi8nae9soquue7ech2EGh3eiph2i $@
+docker exec -it coinium.mysql mysql --password=aey4xi8nae9soquue7ech2EGh3eiph2i coinium_test_litecoin_pool $@

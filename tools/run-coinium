@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cp lib/dll/*.dll bin/Debug/
+mono bin/Debug/CoiniumServ.exe

@@ -180,6 +180,7 @@ namespace CoiniumServ.Jobs.Manager
             catch (RpcException rpcException)
             {
                 _logger.Error("New job creation failed: {0:l}", rpcException.Message);
+                _logger.Error("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB {0} -> {1}", rpcException.InnerException.Message, rpcException.InnerException.StackTrace);
                 return null;
             }
         }
